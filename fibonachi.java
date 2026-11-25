@@ -12,7 +12,6 @@ public class FibonacciSequence {
         for (int i = 1; i <= n; i++) {
             System.out.println("Term " + i + ": " + t1);
 
-            // then we'll compute the next term
             BigInteger sum = t1.add(t2);
             t1 = t2;
             t2 = sum;
